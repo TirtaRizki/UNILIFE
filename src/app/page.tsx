@@ -10,6 +10,7 @@ import PublicFooter from '@/components/landing/public-footer';
 import DashboardSection from '@/components/landing/dashboard-section';
 import BackToTopButton from '@/components/landing/back-to-top-button';
 import FloatingIcons from '@/components/landing/floating-icons';
+import Chatbot from '@/components/landing/chatbot';
 
 export default function LandingPage() {
   return (
@@ -27,6 +28,7 @@ export default function LandingPage() {
       </main>
       <PublicFooter />
       <BackToTopButton />
+      <Chatbot />
     </div>
   );
 }
